@@ -1,0 +1,6 @@
+wiki:
+  image: e-cosi/dokuwiki
+  container_name: dokuwiki
+  restart: always
+  ports:
+    - "80:80"
