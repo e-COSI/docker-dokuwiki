@@ -10,10 +10,10 @@ FROM ubuntu:trusty
 MAINTAINER Lionel Deglise <lionel.deglise@e-cosi.com>
 
 # Set the version you want of DokuWiki
-ENV DOKUWIKI_VERSION 2017-02-19b
-ENV DOKUWIKI_CSUM ea11e4046319710a2bc6fdf58b5cda86
+ENV DOKUWIKI_VERSION 2017-02-19e
+ENV DOKUWIKI_CSUM 09bf175f28d6e7ff2c2e3be60be8c65f
 
-ENV LAST_REFRESHED 18. may 2017
+ENV LAST_REFRESHED 28. september 2017
 
 # Update & install packages & cleanup afterwards
 RUN DEBIAN_FRONTEND=noninteractive \
